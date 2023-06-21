@@ -1,8 +1,7 @@
 
 // MAXIMS SIMPLE BUTTON LIBRARY
 
-HashMap<String, SimpleButton> simpleButtons;  // creating Hashmap to hold all buttons and its name
-
+HashMap<String, SimpleButton> simpleButtons;  // creating Hashmap to hold all buttons and there names
 void createSimpleButton(String name, int bxPosition, int byPosition, int bWidth, int bHeight, Runnable onPressAction) {  // method to create a new button 
   SimpleButton newButton = new SimpleButton(bxPosition, byPosition, bWidth, bHeight, onPressAction);  // creating new button
   simpleButtons.put(name, newButton);  // adding button to hashmap
