@@ -1,7 +1,7 @@
  //<>//
 // MAXIMS SIMPLE CHECKBOX LIBRARY
 
-HashMap<String, SimpleCheckBox> simpleCheckBoxes;  // creating Hashmap to hold all checkboxes and its name
+HashMap<String, SimpleCheckBox> simpleCheckBoxes;  // creating Hashmap to hold all checkboxes and there names
 
 void createSimpleCheckBox(String name, int cxPosition, int cyPosition, int cDimension) {  // method to create a new checkbox 
   SimpleCheckBox newCheckBox = new SimpleCheckBox(cxPosition, cyPosition, cDimension);  // creating new checkbox
