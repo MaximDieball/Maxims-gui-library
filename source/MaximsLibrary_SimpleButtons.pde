@@ -61,7 +61,7 @@ class SimpleButton {  // class for buttons
     this.bBackgroundColor = newColor;
   }
 
-  void setBackgroundImage(PImage newImage) {  // method to change the background image color of the button
+  void setBackgroundImage(PImage newImage) {  // method to change the background image of the button
     this.bbBackgroundColor = false;
     this.bbBackgroundImage = true;
     this.bBackgroundImage = newImage;
