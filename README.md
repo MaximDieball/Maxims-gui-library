@@ -5,4 +5,4 @@ The library should be imported by adding the files to the project folder so you 
 
 If you want to test the code you should check out the paint app inside the examples folder!
 
-THIS IS ONLY A SCHOOL/PERSONAL PROJECT
+This is a school / personal project
